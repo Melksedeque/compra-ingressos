@@ -1,5 +1,9 @@
 # Compra de Ingressos
 
+Uma aplicação web simples e intuitiva para simular a compra de ingressos para eventos. Este projeto foi desenvolvido com foco em praticar habilidades de front-end, incluindo HTML, CSS e JavaScript, e oferece uma interface amigável para os usuários selecionarem o tipo de ingresso e a quantidade desejada.
+
+---
+
 ## Menu
 
 - [Layout](#layout)
@@ -26,17 +30,36 @@
 
 ## Descrição
 
+A aplicação "Compra de Ingressos" permite que os usuários escolham entre diferentes tipos de ingressos (pista, cadeira superior e cadeira inferior) e selecionem a quantidade desejada, com base na disponibilidade. O sistema atualiza automaticamente a quantidade restante de ingressos após cada compra e exibe mensagens de sucesso ou alerta caso a quantidade solicitada não esteja disponível.
+
 ### Principais recursos incluem
+
+- Interface responsiva e amigável.
+- Seleção de tipo de ingresso com menu suspenso.
+- Validação de quantidade disponível antes da compra.
+- Atualização dinâmica da quantidade de ingressos restantes.
+- Alertas para feedback do usuário.
 
 ---
 
 ## Tecnologias Utilizadas
 
+- **HTML5**: Estrutura semântica da página.
+- **CSS3**: Estilização com foco em design moderno e responsivo.
+- **JavaScript**: Lógica de interação e manipulação dinâmica do DOM.
+
 ---
 
 ## Estrutura de Pastas
 
+
+
 ### Arquivos Principais
+
+- **index.html**: Estrutura principal da aplicação.
+- **styles/_reset.css**: Reset de estilos para consistência entre navegadores.
+- **styles/style.css**: Estilos personalizados para o layout.
+- **js/app.js**: Lógica de compra e manipulação de estoque.
 
 ---
 
@@ -54,7 +77,13 @@ git clone https://github.com/Melksedeque/compra-ingressos.git
 
 ### Casos de Uso Comuns
 
+- Simular a compra de ingressos para eventos.
+- Testar a lógica de validação de estoque.
+
 ### Solução de Problemas
+
+- Certifique-se de que todos os arquivos estão no mesmo diretório e que os caminhos para os recursos (imagens, CSS, JS) estão corretos.
+- Caso o JavaScript não funcione, verifique se o navegador está com o suporte a scripts habilitado.
 
 ---
 
