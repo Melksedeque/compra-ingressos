@@ -36,3 +36,17 @@ function comprarSuperior(qtd) {
     alert("Compra realizada com sucesso!");
   }
 }
+
+function comprarInferior(qtd) {
+  let qtdInferior = parseInt(
+    document.getElementById("qtd-inferior").textContent
+  );
+
+  if (qtd > qtdInferior) {
+    alert("Quantidade indisponível para tipo inferior");
+  } else {
+    qtdInferior = qtdInferior - qtd;
+    document.getElementById("qtd-inferior").textContent = qtdInferior;
+    alert("Compra realizada com sucesso!");
+  }
+}
