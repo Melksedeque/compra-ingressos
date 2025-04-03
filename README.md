@@ -52,12 +52,30 @@ A aplicação "Compra de Ingressos" permite que os usuários escolham entre dife
 
 ## Estrutura de Pastas
 
-
+```plaintext
+ingresso/
+├── assets/                     # Pasta de assets
+|   ├── PNG/                    # Pasta de imagens PNG
+|   ├── SVG/                    # Pasta de imagens SVG
+|   ├── image1.png              # Imagem de fundo
+|   ├── ingresso.svg            # Imagem do ingresso
+|   └── Logo-e-ticket.png       # Imagem do Logo do e-Ticket
+├── js/                         # Scripts
+|   └── app.js                  # Script com as funções do projeto
+├── screenshot/                 # Screenshot
+|   └── tela-principal.png      # Print do Projeto
+├── styles/                     # Estilos CSS
+|   ├── _reset.css              # Reset CSS para limpar o estilo do navegador
+|   └── style.css               # Estilo do projeto
+├── index.html                  # Página principal
+├── LICENSE                     # Arquivo de LICENÇA MIT
+└── README.md                   # Arquivo README do projeto
+```
 
 ### Arquivos Principais
 
 - **index.html**: Estrutura principal da aplicação.
-- **styles/_reset.css**: Reset de estilos para consistência entre navegadores.
+- **styles/\_reset.css**: Reset de estilos para consistência entre navegadores.
 - **styles/style.css**: Estilos personalizados para o layout.
 - **js/app.js**: Lógica de compra e manipulação de estoque.
 
